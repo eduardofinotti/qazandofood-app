@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* qazandoFoodAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* qazandoFoodAppTests.m */; };
+		0125C709D5D8DF1293F9F108 /* Pods_qazandoFoodApp_qazandoFoodAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE54E4C647CECBA90AE007 /* Pods_qazandoFoodApp_qazandoFoodAppTests.framework */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		95340D375957F6C7B08778C7 /* libPods-qazandoFoodApp-qazandoFoodAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB559AF1AC580591D4B1AA18 /* libPods-qazandoFoodApp-qazandoFoodAppTests.a */; };
-		FBC15979604B818F773037C0 /* libPods-qazandoFoodApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6528D232549EEAA607D11DC5 /* libPods-qazandoFoodApp.a */; };
+		D9838A0A6C97A8D707A51446 /* Pods_qazandoFoodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E79ACE089668FDDBA165B /* Pods_qazandoFoodApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,11 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = qazandoFoodApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = qazandoFoodApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = qazandoFoodApp/main.m; sourceTree = "<group>"; };
+		230E79ACE089668FDDBA165B /* Pods_qazandoFoodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qazandoFoodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5936609C772AFB808BBD6D33 /* Pods-qazandoFoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qazandoFoodApp.release.xcconfig"; path = "Target Support Files/Pods-qazandoFoodApp/Pods-qazandoFoodApp.release.xcconfig"; sourceTree = "<group>"; };
-		6528D232549EEAA607D11DC5 /* libPods-qazandoFoodApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qazandoFoodApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D01E9BE60B7CFBAF9F38584 /* Pods-qazandoFoodApp-qazandoFoodAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qazandoFoodApp-qazandoFoodAppTests.debug.xcconfig"; path = "Target Support Files/Pods-qazandoFoodApp-qazandoFoodAppTests/Pods-qazandoFoodApp-qazandoFoodAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = qazandoFoodApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AB559AF1AC580591D4B1AA18 /* libPods-qazandoFoodApp-qazandoFoodAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qazandoFoodApp-qazandoFoodAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CE54E4C647CECBA90AE007 /* Pods_qazandoFoodApp_qazandoFoodAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qazandoFoodApp_qazandoFoodAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6775FA1F60BD119768FAE7D /* Pods-qazandoFoodApp-qazandoFoodAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qazandoFoodApp-qazandoFoodAppTests.release.xcconfig"; path = "Target Support Files/Pods-qazandoFoodApp-qazandoFoodAppTests/Pods-qazandoFoodApp-qazandoFoodAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95340D375957F6C7B08778C7 /* libPods-qazandoFoodApp-qazandoFoodAppTests.a in Frameworks */,
+				0125C709D5D8DF1293F9F108 /* Pods_qazandoFoodApp_qazandoFoodAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC15979604B818F773037C0 /* libPods-qazandoFoodApp.a in Frameworks */,
+				D9838A0A6C97A8D707A51446 /* Pods_qazandoFoodApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6528D232549EEAA607D11DC5 /* libPods-qazandoFoodApp.a */,
-				AB559AF1AC580591D4B1AA18 /* libPods-qazandoFoodApp-qazandoFoodAppTests.a */,
+				230E79ACE089668FDDBA165B /* Pods_qazandoFoodApp.framework */,
+				B1CE54E4C647CECBA90AE007 /* Pods_qazandoFoodApp_qazandoFoodAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,6 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				5F0E04E7FA9AE77F8DFFAA87 /* [CP] Embed Pods Frameworks */,
-				36F7E3F330ADFD80B8A5E9C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +192,6 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				BC4B06DCE97E4A95DD3B4D2E /* [CP] Embed Pods Frameworks */,
-				19F9027F8D160DC20FA1B784 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,23 +272,6 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		19F9027F8D160DC20FA1B784 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-qazandoFoodApp/Pods-qazandoFoodApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-qazandoFoodApp/Pods-qazandoFoodApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qazandoFoodApp/Pods-qazandoFoodApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		26050BEC8D48FBD2257733E0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,23 +292,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		36F7E3F330ADFD80B8A5E9C5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-qazandoFoodApp-qazandoFoodAppTests/Pods-qazandoFoodApp-qazandoFoodAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-qazandoFoodApp-qazandoFoodAppTests/Pods-qazandoFoodApp-qazandoFoodAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qazandoFoodApp-qazandoFoodAppTests/Pods-qazandoFoodApp-qazandoFoodAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		470B914854C12F5458059B60 /* [CP] Check Pods Manifest.lock */ = {
